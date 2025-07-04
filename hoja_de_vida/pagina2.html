@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ 
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    
+
+    <script src="/work.js"></script>
+<!--     <script>
+        
+        let sum = 0
+
+        while (true) {
+            let usr = prompt("Selecciona una opción: ")
+            if(usr == 1){
+                sum += 3000
+                alert("Has Seleccionado un cafe!\nme debes: " +sum)
+            
+            }
+            else if(usr == 2){
+                sum += 2500
+                alert("Has Seleccionado un té!\nme debes: "+sum)
+            }
+            else if(usr == 3){
+                sum += 3500
+                alert("Has seleccionado un jugo!\nme debes: "+sum)
+            }
+            else{
+                alert("No has Seleccionado nada")
+                break;
+            }
+        } 
+
+ 
+    </script>
+ -->
+
+  
+
+</head>
+
+<body>
+||    <div class="contenedor"> RONALD Y. SOLORZANO ARENAS
+    </div>
+
+
+
+
+
+    </div>
+    <a href="https://google.com">google</a>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae aspernatur facere rerum, non tenetur nulla ab corrupti magnam ea officiis accusamus, illum perspiciatis voluptatum odio pariatur ipsam delectus voluptatibus!</P>
+</body>
+<footer>
+      <label class="etiq" for="identificacion">Identificación</label>
+        <input type="text" name="identificacion" placeholder="numero de identificación" required>
+        
+        <br><br> 
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required>
+        <br><br>
+
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
+        <br><br>
+
+        <label for="Departamentos">Departamento:</label>    
+         <select id="departamentos" name="departamentos">
+    <option value="">Seleccione un departamento</option>
+</select>
+
+<br><br>
+
+<label for="municipios">Municipio:</label>
+<select id="municipios" name="municipios">
+    <option value="">Seleccione un municipio</option>
+</select>
+
+<script>
+// Datos de departamentos y municipios
+const departamentos = {
+    "Tolima": ["Ibagué", "Armero", "Flandes"],
+    "Cundinamarca": ["Bogotá", "Zipaquirá", "Cajamarca"]
+};
+
+// Agregar las opciones de departamentos
+let departamentosSelect = document.getElementById("departamentos");
+for (let departamento in departamentos) {
+    let option = document.createElement("option");
+    option.value = departamento;
+    option.textContent = departamento;
+    departamentosSelect.appendChild(option);
+}
+
+// Función para actualizar la lista de municipios
+function actualizarMunicipios() {
+    let departamentoSeleccionado = departamentosSelect.value;
+    let municipiosSelect = document.getElementById("municipios");
+    municipiosSelect.innerHTML = "<option value=''>Seleccione un municipio</option>"; // Limpiar la lista
+
+    if (departamentoSeleccionado) {
+        let municipios = departamentos[departamentoSeleccionado];
+        for (let municipio of municipios) {
+            let option = document.createElement("option");
+            option.value = municipio;
+            option.textContent = municipio;
+            municipiosSelect.appendChild(option);
+        }
+    }
+}
+
+// Evento de cambio en la lista de departamentos
+departamentosSelect.addEventListener("change", actualizarMunicipios);
+</script>
+
+        <br><br>
+
+        <label for="mensaje:">Mensaje</label>
+        <br><br>
+        <textarea name="mensaje"  rows="4" cols="50"></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+
+
+
+
+
+
+</footer>
+</html>

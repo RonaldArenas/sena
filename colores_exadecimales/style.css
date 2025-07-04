@@ -1,0 +1,88 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+/* Estilos del cuerpo de la página */
+body {
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Estilos para imágenes */
+img {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+    height: 100px;
+    width: 100%;
+    background: grey;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para h1 */
+h1 {
+    margin: 20px;
+}
+
+/* Estilos para centrar con flexbox */
+.centrar-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el contenedor */
+#contenedor {
+    height: 220px;
+    width: 450px;
+    background-color: white;
+    border: 5px solid black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Estilos para el texto de color */
+#color {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+/* Estilos para botones */
+button {
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: #00af00;
+    margin: 15px;
+    padding: 10px 30px;
+    border: 3px solid #00af00;
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+/* Estilos para el hover del botón */
+button:hover {
+    background-color: #ffa500;
+    border: 3px solid #ffa500;
+}
+
+/* Estilos para el contenedor principal */
+.contenedor-principal {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
