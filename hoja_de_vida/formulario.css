@@ -6,7 +6,7 @@ body{
     margin: 100px auto;
     border: 3px solid black;
     padding: 20px;
-    
+   
 }
 
 
@@ -46,3 +46,30 @@ body{
     input[type="submit"]:hover {
       background-color: #990ef5;
     }
+
+    /* BOTONES SUPERIORES */
+
+    
+.boton {
+    position: relative;
+    bottom: 100px;
+    background-color: gray;  
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+.boton:hover {
+  background-color: #0056b3; 
+}
+
+
