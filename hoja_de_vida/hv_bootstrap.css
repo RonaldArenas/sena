@@ -9,6 +9,7 @@ body{
     
 }
 
+
 .correo{
     position: relative;
     right: 115px;
@@ -77,5 +78,49 @@ body{
 .barras{
     position: relative;
     left: 20px;
-    
 }
+
+.harvart{
+    color: blue;
+}
+
+.linea-foros {
+    position: relative;
+    width: 535px;
+    background-color: black;
+    height: 5px;
+    border: none;
+    margin: 10px 0;
+    left: 500px;
+    top: 58px;
+}
+
+.fecha-foros{
+    position: relative;
+    left: 60px;
+}
+
+.linea-experiencia{
+    position: relative;
+    width: 713px;
+    background-color: black;
+    height: 5px;
+    border: none;
+    margin: 10px 0;
+    left: 320px;
+    top: 58px;
+
+}
+
+.empresa{
+    color: blue;
+}
+
+.fecha-experiencia{
+    position: relative;
+    left: 54px;
+
+
+}
+
+
