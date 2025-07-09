@@ -210,28 +210,31 @@ bottom: 11px;
 
 /* BOTONES SUPERIORES */
 
-.boton {
+.botones {
     position: relative;
-    bottom: 100px;
-    background-color: gray;  
-    color: white;
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
     padding: 10px;
-    border-radius: 7px;
-    text-decoration: none;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-    transition: background-color 0.3s;
-    margin: 5px;
-    justify-content: center;
+    bottom: 100px;
+    
+}
 
+.boton {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007BFF; 
+    color: white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    white-space: nowrap;
 }
 
 .boton:hover {
-  background-color: #0056b3; 
+    background-color: #0056b3;
 }
-
 
 
 

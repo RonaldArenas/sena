@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(234, 235, 217);
+    font-family: roboto,'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    max-width: 950px;
+    margin: 100px auto;
+    border: 3px solid black;
+    padding: 20px;
+   
+}
+
+.row{
+    position: relative;
+    bottom: 100px;
+}
