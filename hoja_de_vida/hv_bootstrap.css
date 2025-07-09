@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(234, 235, 217);
+    font-family: roboto,'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    max-width: 1100px;
+    margin: 100px auto;
+    border: 3px solid black;
+    padding: 20px;
+    
+}
+
+.correo{
+    position: relative;
+    right: 115px;
+}
+
+
+
+.img-fluid{
+    margin-left: -10px; 
+    border-radius: 10px;
+    position: relative;
+    top: 45px;
+}
+
+#linea-foto{
+    width: 250px ;
+    height: 3px;
+    background-color: #868686;
+    position: relative;
+    top: 12px;
+    right: 170px;
+    
+}
+
+.perfil-profesional{
+    position: relative;
+    right: 25px;
+
+}
+
+.habilidades{
+    position: relative;
+    left: 143px;
+
+}
+
+.linea-perfil{
+    position: relative;
+    width: 485px;
+    background-color: black;
+    right: 50px;
+    height: 5px;            
+    border: none;           
+    margin: 0;
+    top: 10px; 
+}
+
+.linea-habilidades{
+    position: relative;
+    width: 148px;
+    background-color: black;
+    left: 83px;
+    height: 5px;            
+    border: none;           
+    margin: 0;
+    top: 10px;
+}
+
+.container-superior{
+    position: relative;
+    bottom: 100px;
+
+}
+
+
+.barras{
+    position: relative;
+    left: 20px;
+    
+}
