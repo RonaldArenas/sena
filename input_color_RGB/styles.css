@@ -20,7 +20,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color:rgb(145, 255, 1);
     border-radius: 50px;
 }
 
@@ -41,6 +41,3 @@ label, p {
     margin: 20px;
 }
 
-.contenedor-interno{
-    background-color: aqua;
-}

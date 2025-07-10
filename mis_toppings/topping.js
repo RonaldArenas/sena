@@ -1,24 +1,19 @@
 /* SELECCIONAR LOS ELEMENTOS DEL DOM */
-
-const lechuga = document.getElementById('lechuga');
-const cebolla = document.getElementById('cebolla');
-const albahaca = document.getElementById('albahaca');
-const tomate = document.getElementById('tomate');
 const mybody = document.getElementById('myBody');
 
-lechuga.addEventListener('click', () => {
+lechuga.addEventListener('click', (e) => {
   mybody.style.backgroundImage = "url('imagenes/lechuga.jpeg')";
 });
 
-cebolla.addEventListener('click', () => {
+cebolla.addEventListener('click', (e) => {
   mybody.style.backgroundImage = "url('imagenes/cebolla.jpg')";
 });
 
-albahaca.addEventListener('click', () => {
+albahaca.addEventListener('click', (e) => {
   mybody.style.backgroundImage = "url('imagenes/albahaca.jpeg')";
 });
 
-tomate.addEventListener('click', () => {
+tomate.addEventListener('click', (e) => {
   mybody.style.backgroundImage = "url('imagenes/tomate.jpg')";
 });
 
